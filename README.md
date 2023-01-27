@@ -22,3 +22,11 @@ Your app is ready to be deployed!
 ### Q: What about Eject?
 
 No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+
+go to public/index.html and copy paste the index.html we have already written (make sure to import JS we are using in our TS -> <script type="module" src="/dist/index.js"></script> )
+
+npm i uuid
+
+when you hover over newTask variable, id's type is any as uuid is not developed for TS; when you hover over uuid (imported) it says install:
+$ npm i --save-dev @types/uuid
+# todo-list-DOM-TS
